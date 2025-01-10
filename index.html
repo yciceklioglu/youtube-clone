@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+   <head>
+      <title>TR-WP.COM - YouTube Redesign</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css?ver=5.2.493">
+   </head>
+   <body>
+      <div id="kapsayici" class="container">
+      <header class="header">
+         <a onclick="sidebarmenu()" id="menu-open" class="menu-icon">
+            <!-- <img src="assets/svg/menu-icon.svg"> -->
+            <div id="menuToggle" class="menuTogglecl">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </a>
+         <a class="logo" href="#" title="Anasayfa">
+         <img class="svg logoman" src="assets/svg/logo-premium.svg">
+         <span class="country-code">TR</span>
+         </a>
+         <div class="search">
+            <input type="search" placeholder="Ara" />
+            <button><img src="assets/svg/magnify.svg"></button>
+         </div>
+         <div class="toggle">
+            <input class="toggle-input" type="checkbox" id="darkSwitch" />
+            <div class="toggle-bg"></div>
+            <div class="toggle-switch">
+               <div class="toggle-switch-figure"></div>
+               <div class="toggle-switch-figureAlt"></div>
+            </div>
+         </div>
+         <div class="user-info">
+            <a href="#"><img class="svg user-menu-img" src="assets/img/user-video-add.svg" /></a>
+            <a href="#"><img class="svg user-menu-img" src="assets/img/user-menu.svg" /></a>
+            <a href="#" class="user-bell"><img class="svg userbar-icon" src="assets/svg/bell.svg" />
+            <span class="notification-count">9</span>
+            </a>
+            <a href="#"><img class="user-info-profile-img" src="assets/img/avatar_default.png" /></a>
+         </div>
+      </header><aside id="sidebar" class="aside">
+   <section class="sidebar-section">
+      <ul class="list">
+         <a href="#">
+            <li class="sidebar-item active">
+               <img class="svg sidebar-icon home" src="assets/svg/home.svg" alt="Ana Sayfa" /> <span class="sidebar-text">Ana Sayfa</span>
+            </li>
+         </a>
+         <a href="#">
+            <li class="sidebar-item">
+               <img class="svg sidebar-icon" src="assets/svg/fire.svg" alt="Trendler" /> <span class="sidebar-text">Trendler</span>
+            </li>
+         </a>
+         <a href="#">
+            <li class="sidebar-item">
+               <img class="svg sidebar-icon" src="assets/svg/youtube-play.svg" alt="Abonelikler" /> <span class="sidebar-text">Abonelikler</span>
+            </li>
+         </a>
+      </ul>
+   </section>
+   <section class="sidebar-section">
+      <h2 class="sidebar-title">Size Özel</h2>
+      <ul class="list">
+      <a title="Geçmiş" href="#">
+      <li class="sidebar-item">
+         <img class="svg sidebar-icon" src="assets/svg/history.svg" alt="histórico" /> <span class="sidebar-text">Geçmiş</span>
+      </li>
+      </a>
+      <a title="Daha sonra izle" href="#">
+      <li class="sidebar-item">
+         <img class="svg sidebar-icon" src="assets/svg/clock.svg" alt="assistir mais tarde" /> <span class="sidebar-text">Daha sonra izle</span>
+      </li>
+      </a>
+      <a title="Beğendiğiniz videolar" href="#">
+      <li class="sidebar-item">
+         <img class="svg sidebar-icon" src="assets/svg/thumb-up.svg" alt="Vídeos marcados" /> <span class="sidebar-text">Beğendiğiniz videolar</span>
+      </li>
+      </a>
+      <a title="Çalma listesi" href="#">
+      <li class="sidebar-item">
+         <img class="svg sidebar-icon" src="assets/svg/playlist-play.svg" alt="podcast" /> <span class="sidebar-text">Çalma listesi</span>
+      </li>
+      </a>
+      <a title="Daha fazla" href="#">
+      <li class="sidebar-item">
+         <img class="svg sidebar-icon" src="assets/svg/chevron-down.svg" alt="mostrar mais" /> <span class="sidebar-text">Daha fazla</span>
+      </li>
+      </a>
+   </section>
+   <section class="sidebar-section">
+      <h2 class="sidebar-title">Abonelikler</h2>
+      <ul class="list">
+                  <a title="Örnek Kullanıcı 1" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(1).jpg"> <span class="sidebar-text">Örnek Kullanıcı 1</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 2" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(2).jpg"> <span class="sidebar-text">Örnek Kullanıcı 2</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 3" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(3).jpg"> <span class="sidebar-text">Örnek Kullanıcı 3</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 4" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(4).jpg"> <span class="sidebar-text">Örnek Kullanıcı 4</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 5" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(5).jpg"> <span class="sidebar-text">Örnek Kullanıcı 5</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 6" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(6).jpg"> <span class="sidebar-text">Örnek Kullanıcı 6</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 7" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(7).jpg"> <span class="sidebar-text">Örnek Kullanıcı 7</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 8" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(8).jpg"> <span class="sidebar-text">Örnek Kullanıcı 8</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 9" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(9).jpg"> <span class="sidebar-text">Örnek Kullanıcı 9</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 10" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(10).jpg"> <span class="sidebar-text">Örnek Kullanıcı 10</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 11" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(11).jpg"> <span class="sidebar-text">Örnek Kullanıcı 11</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 12" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(12).jpg"> <span class="sidebar-text">Örnek Kullanıcı 12</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 13" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(13).jpg"> <span class="sidebar-text">Örnek Kullanıcı 13</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 14" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(14).jpg"> <span class="sidebar-text">Örnek Kullanıcı 14</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 15" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(15).jpg"> <span class="sidebar-text">Örnek Kullanıcı 15</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 16" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(16).jpg"> <span class="sidebar-text">Örnek Kullanıcı 16</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 17" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(17).jpg"> <span class="sidebar-text">Örnek Kullanıcı 17</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 18" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(18).jpg"> <span class="sidebar-text">Örnek Kullanıcı 18</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 19" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(19).jpg"> <span class="sidebar-text">Örnek Kullanıcı 19</span>
+         </li>
+         </a>
+                  <a title="Örnek Kullanıcı 20" href="#">
+         <li class="sidebar-item">
+            <img class="sidebar-user-img" src="assets/demo/demo(20).jpg"> <span class="sidebar-text">Örnek Kullanıcı 20</span>
+         </li>
+         </a>
+               </ul>
+   </section>
+</aside><main class="main">
+   <section class="video-section">
+      <article class="video-list owlsi">
+         <h2 class="video-category-title">Önerilen</h2>
+         <div class="owl-carousel owl-theme" id="video-kay">
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(1).jpg" />
+                     <div class="video-time">14:55</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">911 Görüntülenme</span>
+                  <span class="video-date">23 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(2).jpg" />
+                     <div class="video-time">16:58</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">216 Görüntülenme</span>
+                  <span class="video-date">22 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(3).jpg" />
+                     <div class="video-time">20:32</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">466 Görüntülenme</span>
+                  <span class="video-date">9 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(4).jpg" />
+                     <div class="video-time">13:45</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">62 Görüntülenme</span>
+                  <span class="video-date">1 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(5).jpg" />
+                     <div class="video-time">16:42</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">796 Görüntülenme</span>
+                  <span class="video-date">21 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(6).jpg" />
+                     <div class="video-time">15:41</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">468 Görüntülenme</span>
+                  <span class="video-date">7 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(7).jpg" />
+                     <div class="video-time">10:31</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">749 Görüntülenme</span>
+                  <span class="video-date">20 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(8).jpg" />
+                     <div class="video-time">15:57</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">529 Görüntülenme</span>
+                  <span class="video-date">8 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(9).jpg" />
+                     <div class="video-time">10:10</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">781 Görüntülenme</span>
+                  <span class="video-date">14 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(10).jpg" />
+                     <div class="video-time">13:53</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">88 Görüntülenme</span>
+                  <span class="video-date">2 saat önce</span>
+               </div>
+            </div>
+                        <div class="item">
+               <div class="videoo animasyon">
+                  <div class="image">
+                     <img class="video-image" src="assets/demo/demo(11).jpg" />
+                     <div class="video-time">18:15</div>
+                  </div>
+                  <a href="#" class="video-title" alt="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye" title="Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye">Hayran Bırakan Pandomim Gösterisi | Yetenek Sizsiniz Türkiye</a>
+                  <a href="#" class="video-name">Yetenek Sizsiniz Türkiye <img class="badge" src="assets/img/badge.png"></a>
+                  <span class="video-views">428 Görüntülenme</span>
+                  <span class="video-date">18 saat önce</span>
+               </div>
+            </div>
+                     </div>
+      </article>
+      <article class="video-list">
+         <h2 class="video-category-title">Trendler</h2>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(11).jpg" />
+               <div class="video-time">18:38</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">570 Görüntülenme</span>
+            <span class="video-date">22 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(12).jpg" />
+               <div class="video-time">16:16</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">115 Görüntülenme</span>
+            <span class="video-date">12 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(13).jpg" />
+               <div class="video-time">19:38</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">162 Görüntülenme</span>
+            <span class="video-date">24 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(14).jpg" />
+               <div class="video-time">16:29</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">793 Görüntülenme</span>
+            <span class="video-date">23 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(15).jpg" />
+               <div class="video-time">20:53</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">595 Görüntülenme</span>
+            <span class="video-date">20 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(16).jpg" />
+               <div class="video-time">17:33</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">48 Görüntülenme</span>
+            <span class="video-date">4 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(17).jpg" />
+               <div class="video-time">17:45</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">771 Görüntülenme</span>
+            <span class="video-date">9 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(18).jpg" />
+               <div class="video-time">13:25</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">815 Görüntülenme</span>
+            <span class="video-date">7 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(19).jpg" />
+               <div class="video-time">20:33</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">764 Görüntülenme</span>
+            <span class="video-date">13 saat önce</span>
+         </div>
+                  <div class="video animasyon">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(20).jpg" />
+               <div class="video-time">15:51</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Arkan & Erkan Oğur - Fikrim Yok - Video Klip - 2019</a>
+            <a href="#" class="video-name">TAFF Pictures <img src="assets/img/badge.png"></a>
+            <span class="video-views">759 Görüntülenme</span>
+            <span class="video-date">7 saat önce</span>
+         </div>
+               </article>
+      <article class="video-list">
+         <h2 class="video-category-title">İzlemeye Devam Et</h2>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(1).jpg" />
+               <div class="video-time">16:60</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">20:60 Görüntülenme</span>
+            <span class="video-date">1 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(2).jpg" />
+               <div class="video-time">10:57</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">16:47 Görüntülenme</span>
+            <span class="video-date">2 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(3).jpg" />
+               <div class="video-time">10:18</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">11:23 Görüntülenme</span>
+            <span class="video-date">3 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(4).jpg" />
+               <div class="video-time">11:48</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">10:23 Görüntülenme</span>
+            <span class="video-date">4 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(5).jpg" />
+               <div class="video-time">15:16</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">18:28 Görüntülenme</span>
+            <span class="video-date">5 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(6).jpg" />
+               <div class="video-time">14:31</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">17:17 Görüntülenme</span>
+            <span class="video-date">6 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(7).jpg" />
+               <div class="video-time">15:42</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">11:42 Görüntülenme</span>
+            <span class="video-date">7 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(8).jpg" />
+               <div class="video-time">15:37</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">16:37 Görüntülenme</span>
+            <span class="video-date">8 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(9).jpg" />
+               <div class="video-time">11:40</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">19:14 Görüntülenme</span>
+            <span class="video-date">9 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(10).jpg" />
+               <div class="video-time">16:29</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">10:20 Görüntülenme</span>
+            <span class="video-date">10 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(11).jpg" />
+               <div class="video-time">19:26</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">18:22 Görüntülenme</span>
+            <span class="video-date">11 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(12).jpg" />
+               <div class="video-time">19:40</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">17:51 Görüntülenme</span>
+            <span class="video-date">12 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(13).jpg" />
+               <div class="video-time">19:12</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">13:41 Görüntülenme</span>
+            <span class="video-date">13 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(14).jpg" />
+               <div class="video-time">10:33</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">14:47 Görüntülenme</span>
+            <span class="video-date">14 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(15).jpg" />
+               <div class="video-time">20:34</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">10:42 Görüntülenme</span>
+            <span class="video-date">15 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(16).jpg" />
+               <div class="video-time">13:33</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">12:43 Görüntülenme</span>
+            <span class="video-date">16 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(17).jpg" />
+               <div class="video-time">12:11</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">11:35 Görüntülenme</span>
+            <span class="video-date">17 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(18).jpg" />
+               <div class="video-time">11:34</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">10:44 Görüntülenme</span>
+            <span class="video-date">18 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(19).jpg" />
+               <div class="video-time">15:46</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">18:11 Görüntülenme</span>
+            <span class="video-date">19 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(20).jpg" />
+               <div class="video-time">17:28</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">15:58 Görüntülenme</span>
+            <span class="video-date">20 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(21).jpg" />
+               <div class="video-time">10:15</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">17:47 Görüntülenme</span>
+            <span class="video-date">21 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(22).jpg" />
+               <div class="video-time">19:28</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">12:14 Görüntülenme</span>
+            <span class="video-date">22 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(23).jpg" />
+               <div class="video-time">11:29</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">17:41 Görüntülenme</span>
+            <span class="video-date">23 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(24).jpg" />
+               <div class="video-time">10:11</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">14:14 Görüntülenme</span>
+            <span class="video-date">24 gün önce yayınlandı</span>
+         </div>
+                  <div class="video">
+            <div class="image">
+               <img class="video-image" src="assets/demo/demo(25).jpg" />
+               <div class="video-time">16:49</div>
+            </div>
+            <a href="#" class="video-title">Hüsnü Şenlendirici - Yıkılmışım Ben & Bir Teselli Ver @ Mandalin Bodrum</a>
+            <a href="#" class="video-name">Hüsnü Arkan</a>
+            <span class="video-views">14:38 Görüntülenme</span>
+            <span class="video-date">25 gün önce yayınlandı</span>
+         </div>
+               </article>
+   </section>
+</main>
+      </div>
+
+		<script src="assets/js/jquery-2.2.0.min.js?ver=5.2.529"></script>
+      <script src="assets/js/owl.carousel.min.js?ver=5.2.481"></script>
+      <script src="assets/js/main.js?ver=5.2.248"></script>
+   </body>
+</html>
